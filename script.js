@@ -1,4 +1,6 @@
-//Gerar um número aleatório de 1 a 6
+var bleep = new Audio();
+bleep.src = "dice-sound.mp3"
+
 function RollD6() {
 	var firstRandomNum = Math.floor(Math.random() * 6) + 1
 
